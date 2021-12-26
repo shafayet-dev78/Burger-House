@@ -1,0 +1,78 @@
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+.head-section li {
+    margin-left: 10px;
+}
+.head-section .banner .rect {
+    height: 34px;
+    margin-top: 30px;
+}
+.head-section .banner p {
+    font-size: 9px;
+    margin: 38px 8px;
+}
+.choose_section h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+.choose_section p {
+    font-size: 10px;
+    line-height: 18px;
+}
+.choose_section .card-title {
+    font-size: 15px;
+    line-height: 23px;
+}
+.upcoming-section h2 {
+    font-size: 27px;
+    line-height: 35px;
+}
+.table-section h2 {
+    font-size: 30px;
+    line-height: 38px;
+}
+.footer-section .contact a {
+    font-size: 10px;
+}
+.footer-section .contact .fa{
+    font-size: 16px;
+}
+.footer-section p {
+    font-size: 12px;
+}
+.footer-section .contact {
+    margin: 120px 72px;
+}
+.footer-section {
+    width: 96%;
+    max-width: 100%;
+}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+.head-section .banner p {
+    margin: 38px 8px;
+}
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+.head-section .banner p {
+    margin: 38px 8px;
+}
+.head-section .banner .rect {
+    margin-top: 30px;
+}
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
